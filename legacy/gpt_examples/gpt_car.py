@@ -3,11 +3,9 @@ from keys import OPENAI_API_KEY, OPENAI_ASSISTANT_ID
 from preset_actions import *
 from utils import *
 
-import readline # optimize keyboard input, only need to import
-
 import speech_recognition as sr
 
-from picarx import Picarx
+from legacy.picarx import Picarx
 from robot_hat import Music, Pin
 
 import time

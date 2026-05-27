@@ -215,12 +215,10 @@ def celebrate(car):
     sleep(.2)
 
 def honking(music):
-    import utils
     # utils.speak_block(music, "../sounds/car-double-horn.wav", 100)
     music.sound_play_threading("../sounds/car-double-horn.wav", 100)
 
 def start_engine(music):
-    import utils
     # utils.speak_block(music, "../sounds/car-start-engine.wav", 100)
     music.sound_play_threading("../sounds/car-start-engine.wav", 50)
 
@@ -245,7 +243,7 @@ sounds_dict = {
 
 
 if __name__ == "__main__":
-    from picarx import Picarx
+    from legacy.picarx import Picarx
     from robot_hat import Music
     import os
 

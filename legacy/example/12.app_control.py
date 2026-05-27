@@ -1,7 +1,7 @@
 from sunfounder_controller import SunFounderController
-from picarx import Picarx
-from picarx import utils
-from picarx.music import Music
+from legacy.picarx import Picarx
+from legacy.picarx import utils
+from legacy.picarx import Music
 from vilib import Vilib
 import os
 from time import sleep

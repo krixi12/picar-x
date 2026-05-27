@@ -1,9 +1,9 @@
-from picarx import Picarx
+from legacy.picarx import Picarx
 import time
 
 # === TTS Configuration ===
 # Default: Piper
-from picarx.tts import Piper
+from legacy.picarx import Piper
 tts = Piper()
 tts.set_model("en_US-amy-low")  # use the voice model you installed
 

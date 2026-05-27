@@ -12,7 +12,7 @@ Manual modification:
     and the background gray value.
 '''
 
-from picarx import Picarx
+from legacy.picarx import Picarx
 from time import sleep
 
 px = Picarx()

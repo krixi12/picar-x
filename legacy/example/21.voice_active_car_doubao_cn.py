@@ -1,9 +1,9 @@
-from picarx.llm import Doubao as LLM
+from legacy.picarx import Doubao as LLM
 from secret import DOUBAO_API_KEY as API_KEY
 
 from voice_active_car import VoiceActiveCar
 
-from picarx.preset_actions import actions_dict, sounds_dict
+from legacy.picarx import actions_dict, sounds_dict
 
 llm = LLM(
     api_key=API_KEY,

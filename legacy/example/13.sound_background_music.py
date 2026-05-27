@@ -1,5 +1,5 @@
 from time import sleep
-from picarx.music import Music
+from legacy.picarx import Music
 import readchar
 
 music = Music()

@@ -1,13 +1,8 @@
-from picarx.voice_assistant import VoiceAssistant
-from picarx.led import LED
+from legacy.picarx import VoiceAssistant
+from legacy.picarx import LED
 
-from picarx.picarx import Picarx
-from picarx.preset_actions import ActionFlow
-
-import time
-import threading
-import random
-import json
+from legacy.picarx import Picarx
+from legacy.picarx import ActionFlow
 
 # Robot name
 NAME = "Rolly"

@@ -1,8 +1,8 @@
 import re
 import time
-from picarx.llm import Ollama
-from picarx.stt import Vosk
-from picarx.tts import Piper
+from legacy.picarx import Ollama
+from legacy.picarx import Vosk
+from legacy.picarx import Piper
 
 stt = Vosk(language="en-us")
 
