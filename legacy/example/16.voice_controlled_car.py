@@ -1,5 +1,5 @@
-from legacy.picarx import Picarx
-from legacy.picarx import Vosk
+from picarx import Picarx
+from picarx import Vosk
 import time
 
 px = Picarx()

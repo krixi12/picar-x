@@ -243,7 +243,7 @@ sounds_dict = {
 
 
 if __name__ == "__main__":
-    from legacy.picarx import Picarx
+    from picarx import Picarx
     from robot_hat import Music
     import os
 

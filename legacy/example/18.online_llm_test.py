@@ -1,4 +1,4 @@
-from legacy.picarx import OpenAI
+from picarx import OpenAI
 from secret import OPENAI_API_KEY
 
 INSTRUCTIONS = "You are a helpful assistant."

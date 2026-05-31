@@ -1,7 +1,7 @@
 # #!/usr/bin/env python3
 
-from legacy.picarx import reset_mcu
-from legacy.picarx import Picarx
+from picarx import reset_mcu
+from picarx import Picarx
 from vilib import Vilib
 from time import sleep, time, strftime, localtime
 import readchar

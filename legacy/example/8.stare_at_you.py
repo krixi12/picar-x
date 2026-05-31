@@ -1,4 +1,4 @@
-from legacy.picarx import Picarx
+from picarx import Picarx
 from time import sleep
 from vilib import Vilib
 

@@ -5,7 +5,7 @@ from utils import *
 
 import speech_recognition as sr
 
-from legacy.picarx import Picarx
+from picarx import Picarx
 from robot_hat import Music, Pin
 
 import time

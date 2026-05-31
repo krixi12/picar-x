@@ -1,4 +1,4 @@
-from legacy.picarx import Ollama
+from picarx import Ollama
 from picamera2 import Picamera2
 import time
 

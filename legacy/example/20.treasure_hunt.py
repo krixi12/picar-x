@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-from legacy.picarx import Picarx
+from picarx import Picarx
 from vilib import Vilib
-from legacy.picarx import Pico2Wave
+from picarx import Pico2Wave
 
 from time import sleep
 import threading

@@ -1,8 +1,8 @@
-from legacy.picarx import VoiceAssistant
-from legacy.picarx import LED
+from picarx import VoiceAssistant
+from picarx import LED
 
-from legacy.picarx import Picarx
-from legacy.picarx import ActionFlow
+from picarx import Picarx
+from picarx import ActionFlow
 
 # Robot name
 NAME = "Rolly"

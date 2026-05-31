@@ -1,5 +1,5 @@
-from legacy.picarx import Picarx
-from legacy.picarx import Espeak
+from picarx import Picarx
+from picarx import Espeak
 import time
 
 # If you want to try Pico2Wave instead of Espeak, uncomment below:

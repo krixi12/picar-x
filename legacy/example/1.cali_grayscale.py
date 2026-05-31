@@ -1,4 +1,4 @@
-from legacy.picarx import Picarx
+from picarx import Picarx
 import time
 import threading
 import readchar 
